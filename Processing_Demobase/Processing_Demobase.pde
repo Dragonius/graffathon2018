@@ -30,7 +30,9 @@ Star[] stars;
 Spaceship spaceship;
  
 void setup() {
+  setSize();
   fullScreen();
+  noCursor();
   frameRate(60);
   spaceship = new Spaceship();
   spaceship.img = loadImage("data/spaceship.png");
@@ -48,7 +50,7 @@ void setup() {
     }
   }
 
-  moonlander = Moonlander.initWithSoundtrack(this, "./data/tekno_127bpm.mp3", 141, 8);
+  moonlander = Moonlander.initWithSoundtrack(this, "./data/spacetravel.mp3", 141, 8);
   moonlander.start();
   smooth();
 }

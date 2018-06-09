@@ -1,4 +1,4 @@
-<sync rows="128">
+<sync rows="5000">
 	<tracks>
 		<track name="red">
 			<key row="0" value="255" interpolation="0"/>
