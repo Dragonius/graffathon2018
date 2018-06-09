@@ -105,6 +105,26 @@ class Star {
   }
 }
 
+class CollidingObject {
+  PImage img;
+  float x;
+  float y;
+  float size_x;
+  float size_y;
+  
+  CollidingObject(float x, float y, float size_x, float size_y) {
+    this.img = new PImage();
+    this.x = x;
+    this.y = y;
+    this.size_x = size_x;
+    this.size_y = size_y;
+  }
+  
+  void draw() {
+    image(this.img, this.x, this.y);
+  }
+}
+
 class Spaceship {
   PImage img;
   float x;
@@ -132,8 +152,7 @@ class Spaceship {
     this.x = lerp(this.x, this.destination, 0.05);
   }
   
-  boolean is_colliding(PShape shape) {
+  boolean is_colliding(CollidingObject co) {
     return true;
   }
-    
 }
