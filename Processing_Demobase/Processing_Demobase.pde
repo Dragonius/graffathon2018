@@ -48,7 +48,7 @@ void setup() {
     }
   }
 
-  moonlander = Moonlander.initWithSoundtrack(this, "./data/tekno_127bpm.mp3", 127, 8);
+  moonlander = Moonlander.initWithSoundtrack(this, "./data/tekno_127bpm.mp3", 141, 8);
   moonlander.start();
   smooth();
 }
@@ -59,11 +59,15 @@ void setup() {
  */
 void draw() {
   moonlander.update();
-  background(0);
-  int size = moonlander.getIntValue("size");
+  background(9, 56, 90);
+  int red = moonlander.getIntValue("red");
+  int green = moonlander.getIntValue("green");
+  int blue = moonlander.getIntValue("blue");
   
   for(int i = 0; i < stars.length; i++) {
-    stars[i].bright = size;
+    stars[i].color_r = red;
+    stars[i].color_g = green;
+    stars[i].color_b = blue;
     stars[i].display();
   }
   
@@ -81,21 +85,25 @@ class Star {
   float size;
   int x;
   int y;
-  int bright;
+  int color_r;
+  int color_g;
+  int color_b;
   
   Star(int layer) {
     this.layer = layer;
     this.size = (int(random(1, 4) * layer));
     this.x = int(random(5, width));
     this.y = int(random(0, height));
-    this.bright = int(random(204, 255));
+    this.color_r = 255;
+    this.color_g = 247;
+    this.color_b = 93;
   }
   
   void display() {
     pushStyle();
     
     //Setup the style
-    stroke(this.bright);
+    stroke(this.color_r, this.color_g, this.color_b);
     strokeWeight(this.size);
     
     int y = this.y - (speed * this.layer);
