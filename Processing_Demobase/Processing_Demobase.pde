@@ -60,6 +60,9 @@ void setup() {
 void draw() {
   moonlander.update();
   background(0);
+  
+  for(int i = 0; i < stars.length; i++) stars[i].display();
+  
   image(spaceship.img, spaceship.x, spaceship.y);
   
   if (spaceship.y < ((height / 2) - 65)) {
@@ -67,8 +70,6 @@ void draw() {
   } else {
     spaceship.move_horizontally();
   }
-  
-  for(int i = 0; i < stars.length; i++) stars[i].display();
 }
 
 class Star {
