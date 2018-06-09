@@ -49,9 +49,12 @@ void setup() {
     }
   }
 
-  moonlander = Moonlander.initWithSoundtrack(this, "./data/spacetravel.mp3", 141, 8);
+  moonlander = Moonlander.initWithSoundtrack(this, "./data/spacetravel.wav", 141, 8);
   moonlander.start();
   smooth();
+}
+
+void drawGradient() {
 }
 
 
