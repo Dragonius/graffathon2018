@@ -1,0 +1,80 @@
+<sync rows="128">
+	<tracks>
+		<track name="size">
+			<key interpolation="0" value="255" row="0"/>
+			<key interpolation="0" value="100" row="1"/>
+			<key interpolation="0" value="100" row="2"/>
+			<key interpolation="0" value="100" row="3"/>
+			<key interpolation="0" value="100" row="4"/>
+			<key interpolation="0" value="100" row="5"/>
+			<key interpolation="0" value="100" row="6"/>
+			<key interpolation="0" value="100" row="7"/>
+			<key interpolation="0" value="255" row="8"/>
+			<key interpolation="0" value="100" row="9"/>
+			<key interpolation="0" value="100" row="10"/>
+			<key interpolation="0" value="100" row="11"/>
+			<key interpolation="0" value="100" row="12"/>
+			<key interpolation="0" value="100" row="13"/>
+			<key interpolation="0" value="100" row="14"/>
+			<key interpolation="0" value="100" row="15"/>
+			<key interpolation="0" value="255" row="16"/>
+			<key interpolation="0" value="100" row="17"/>
+			<key interpolation="0" value="100" row="18"/>
+			<key interpolation="0" value="100" row="19"/>
+			<key interpolation="0" value="100" row="20"/>
+			<key interpolation="0" value="100" row="21"/>
+			<key interpolation="0" value="100" row="22"/>
+			<key interpolation="0" value="100" row="23"/>
+			<key interpolation="0" value="255" row="24"/>
+			<key interpolation="0" value="100" row="25"/>
+			<key interpolation="0" value="100" row="26"/>
+			<key interpolation="0" value="100" row="27"/>
+			<key interpolation="0" value="100" row="28"/>
+			<key interpolation="0" value="100" row="29"/>
+			<key interpolation="0" value="100" row="30"/>
+			<key interpolation="0" value="100" row="31"/>
+			<key interpolation="0" value="255" row="32"/>
+			<key interpolation="0" value="100" row="33"/>
+			<key interpolation="0" value="100" row="34"/>
+			<key interpolation="0" value="100" row="35"/>
+			<key interpolation="0" value="100" row="36"/>
+			<key interpolation="0" value="100" row="37"/>
+			<key interpolation="0" value="100" row="38"/>
+			<key interpolation="0" value="100" row="39"/>
+			<key interpolation="0" value="255" row="40"/>
+			<key interpolation="0" value="100" row="41"/>
+			<key interpolation="0" value="100" row="42"/>
+			<key interpolation="0" value="100" row="43"/>
+			<key interpolation="0" value="100" row="44"/>
+			<key interpolation="0" value="100" row="45"/>
+			<key interpolation="0" value="100" row="46"/>
+			<key interpolation="0" value="100" row="47"/>
+			<key interpolation="0" value="255" row="48"/>
+			<key interpolation="0" value="100" row="49"/>
+			<key interpolation="0" value="100" row="50"/>
+			<key interpolation="0" value="100" row="51"/>
+			<key interpolation="0" value="100" row="52"/>
+			<key interpolation="0" value="100" row="53"/>
+			<key interpolation="0" value="100" row="54"/>
+			<key interpolation="0" value="100" row="55"/>
+			<key interpolation="0" value="255" row="56"/>
+			<key interpolation="0" value="100" row="57"/>
+			<key interpolation="0" value="100" row="58"/>
+			<key interpolation="0" value="100" row="59"/>
+			<key interpolation="0" value="100" row="60"/>
+			<key interpolation="0" value="100" row="61"/>
+			<key interpolation="0" value="100" row="62"/>
+			<key interpolation="0" value="100" row="63"/>
+			<key interpolation="0" value="255" row="64"/>
+			<key interpolation="0" value="100" row="65"/>
+			<key interpolation="0" value="100" row="66"/>
+			<key interpolation="0" value="100" row="67"/>
+			<key interpolation="0" value="100" row="68"/>
+			<key interpolation="0" value="100" row="69"/>
+			<key interpolation="0" value="100" row="70"/>
+			<key interpolation="0" value="100" row="71"/>
+			<key interpolation="0" value="255" row="72"/>
+		</track>
+	</tracks>
+	<bookmarks/>
+</sync>

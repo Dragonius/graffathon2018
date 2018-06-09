@@ -48,7 +48,7 @@ void setup() {
     }
   }
 
-  moonlander = Moonlander.initWithSoundtrack(this, "./data/tekno_127bpm.mp3", 127, 4);
+  moonlander = Moonlander.initWithSoundtrack(this, "./data/tekno_127bpm.mp3", 127, 8);
   moonlander.start();
   smooth();
 }
@@ -60,8 +60,12 @@ void setup() {
 void draw() {
   moonlander.update();
   background(0);
+  int size = moonlander.getIntValue("size");
   
-  for(int i = 0; i < stars.length; i++) stars[i].display();
+  for(int i = 0; i < stars.length; i++) {
+    stars[i].bright = size;
+    stars[i].display();
+  }
   
   image(spaceship.img, spaceship.x, spaceship.y);
   
@@ -91,8 +95,8 @@ class Star {
     pushStyle();
     
     //Setup the style
-    stroke(bright);
-    strokeWeight(size);
+    stroke(this.bright);
+    strokeWeight(this.size);
     
     int y = this.y - (speed * this.layer);
     
