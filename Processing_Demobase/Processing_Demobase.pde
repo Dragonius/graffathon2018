@@ -30,7 +30,6 @@ Star[] stars;
 Spaceship spaceship;
  
 void setup() {
-  setSize();
   fullScreen();
   noCursor();
   frameRate(60);
